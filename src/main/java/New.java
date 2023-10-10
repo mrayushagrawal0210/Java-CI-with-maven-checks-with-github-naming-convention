@@ -6,6 +6,8 @@ public class New {
             int i = 100/0;
         } catch (Exception e) {
             e.printStackTrace();
+            //added loggers 
+            system.out.println("added the loggers");
         }
     }
 }
